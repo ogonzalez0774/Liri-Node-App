@@ -67,7 +67,16 @@ if (args[0] === "movie-this") {
         axios.get("http://www.omdbapi.com/?s=" + args[1] +
             "&type=movie&apikey=3f79447c").then(
             function (response) {
+                console.log(response.data)
+                let title = response.data[0].title
+                let year = response.data[0].year
+                let imdb = response.data[0].imdbID
+                console.log(
+                    "--------------------",
+                    "\nTittle: " + title,
+                    "\nYear: " + year,
+                    "\n-------------------")
 
             })
     }
-};
+}
