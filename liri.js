@@ -61,10 +61,10 @@ if (args[0] === "spotify-this-song") {
 
           "-----------------------------",
           // "\n", response.tracks.items[0],
-          "\n", response.tracks.items[0].artists[0].name,
-          "\n", response.tracks.items[0].name,
-          "\n", response.tracks.items[0].preview_url,
-          "\n", response.tracks.items[0].album.name,
+          "\n" + "Artist Name:", response.tracks.items[0].artists[0].name,
+          "\n" + "Song Name:", response.tracks.items[0].name,
+          "\n" + "URL Preview:", response.tracks.items[0].preview_url,
+          "\n" + "Album Name:", response.tracks.items[0].album.name,
           "\n-----------------------------",
         )
       })

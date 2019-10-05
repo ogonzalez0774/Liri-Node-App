@@ -4,10 +4,15 @@
 
 - Make a Node.js app that depends on user input from the command line
 
-- Integrate bandsintown, Spotify, and OMDb APIs via the appropriate NPM modules
+- Integrate BandsInTown, Spotify, and OMDb APIs via the appropriate NPM modules
 
 - Use API calls and parse through returned JSON objects, outputting them in a specified format
+
 - Read commands and queries from file
+
+### Target
+
+- This app is an easy solution for those who want to search a song, or a movie, or look the next concert for their favorite artist
 
 ### Technologies Used
 
@@ -15,6 +20,7 @@
 - JavaScript
 - Spotify API (via spotify npm module)
 - OMDb API (via request npm module)
+- BandsInTown API
 
 ### Code Explanation
 
