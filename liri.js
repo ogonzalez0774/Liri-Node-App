@@ -84,18 +84,34 @@ if (args[0] === "movie-this") {
   } else {
     axios
       .get(
-        "http://www.omdbapi.com/?s=" + args[1] + "&type=movie&apikey=3f79447c"
+        "http://www.omdbapi.com/?t=" + args[1] + "&apikey=3f79447c"
       )
       .then(function (response) {
-        let title = response.data.Search[0].Title;
-        let year = response.data.Search[0].Year;
-        let imdb = response.data.Search[0].imdbID;
         console.log(
-          "--------------------",
-          "\nTittle: " + title,
-          "\nYear: " + year,
-          "\n-------------------"
+          "--------------------------------------------------",
+          "\nTittle: " + response.data.Title,
+          "\nYear: " + response.data.Year,
+          "\nImdb Rating: " + response.data.imdbRating,
+          "\nCountry: " + response.data.Country,
+          "\nLanguage: " + response.data.Language,
+          "\nPlot: " + response.data.Plot,
+          "\nActors: " + response.data.Actors,
+          "\n--------------------------------------------------"
         );
       });
   }
+}
+
+if (args[0] === "do-what-it-says") {
+
+  fs.readFile("random.txt", "utf8", function (error, data) {
+    if (error) {
+      return console.log(error);
+    }
+    console.log(data);
+
+
+
+
+  });
 }
