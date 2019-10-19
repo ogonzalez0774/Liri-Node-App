@@ -48,8 +48,8 @@
 ### Images of results
 
 - Concert-this Results
-  ![Image description](images/concert.PNG)
+  ![Image description](./images/concert.PNG)
 - Movie-this Results
-  ![Image description](images/movie.PNG)
-- Spotify-this-son Results
-  ![Image description](images/spotify.PNG)
+  ![Image description](./images/movie.PNG)
+- Spotify-this-song Results
+  ![Image description](./images/spotify.PNG)
