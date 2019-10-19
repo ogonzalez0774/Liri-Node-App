@@ -44,3 +44,12 @@
 
 * The program also reads from a file called "random.text" and executes the command and query found there using string and array methods
   Appropriate comments and error-checking has been added
+
+### Images of results
+
+- Concert-this Results
+  ![Image description](images/concert.PNG)
+- Movie-this Results
+  ![Image description](images/movie.PNG)
+- Spotify-this-son Results
+  ![Image description](images/spotify.PNG)
