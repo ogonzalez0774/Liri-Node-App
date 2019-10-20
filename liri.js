@@ -101,17 +101,3 @@ if (args[0] === "movie-this") {
       });
   }
 }
-
-if (args[0] === "do-what-it-says") {
-
-  fs.readFile("random.txt", "utf8", function (error, data) {
-    if (error) {
-      return console.log(error);
-    }
-    console.log(data);
-
-
-
-
-  });
-}
