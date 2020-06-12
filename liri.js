@@ -48,8 +48,8 @@ if (args[0] === "spotify-this-song") {
     );
   } else {
     let spotify = new Spotify({
-      id: "4e4cfacf4f944db59467b76d1627692b",
-      secret: "40b7c8d69a704900adf7ea9329857328"
+      id: "",
+      secret: ""
     });
 
     spotify
